@@ -1,0 +1,23 @@
+.edit-event {
+  min-height: 100vh;
+  padding: 40px 0;
+}
+
+.header-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .header-actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .header-actions .btn {
+    width: 100%;
+  }
+}
+

@@ -1,0 +1,28 @@
+.rsvp-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.rsvp-form-container .card h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.rsvp-subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.rsvp-form {
+  margin-top: 20px;
+}
+
+.btn-submit {
+  width: 100%;
+  margin-top: 10px;
+  padding: 14px;
+  font-size: 1.1rem;
+}
+

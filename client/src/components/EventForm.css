@@ -1,0 +1,100 @@
+.event-form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.event-form .card {
+  margin-bottom: 30px;
+}
+
+.event-form .card h2 {
+  margin-bottom: 24px;
+  color: #333;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 12px;
+}
+
+.speaker-item,
+.gallery-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.speaker-info strong {
+  display: block;
+  margin-bottom: 4px;
+  color: #333;
+}
+
+.speaker-info p {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.btn-remove {
+  padding: 6px 12px;
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+
+.btn-remove:hover {
+  background: #c82333;
+}
+
+.add-item-form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.add-item-form input {
+  flex: 1;
+  min-width: 200px;
+  padding: 10px;
+  border: 2px solid #e0e0e0;
+  border-radius: 6px;
+}
+
+.gallery-preview {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.gallery-item {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.form-actions {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 30px;
+  border-top: 2px solid #e0e0e0;
+}
+
+.form-actions button {
+  min-width: 200px;
+}
+
